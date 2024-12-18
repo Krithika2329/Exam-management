@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-//import LogoHeader from './components/LogoHeader';
 import AuthPage from './components/AuthPage';
 import HomePage from './components/HomePage';
 import SeatSelector from './components/SeatSelector';
@@ -10,7 +9,6 @@ import SeatingTable from './components/SeatingTable';
 function App() {
   return (
     <Router>
-      
       <Routes>
         <Route path="/" element={<AuthPage />} />
         <Route path="/home" element={<HomePage />} />
@@ -23,4 +21,3 @@ function App() {
 }
 
 export default App;
-

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './SeatSelector.css';
+import './Seatselector.css';
 
 const SeatSelector = () => {
   const [rows, setRows] = useState(1);
